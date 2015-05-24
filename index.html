@@ -7,22 +7,56 @@
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
 </head>
 <body>
-<header>
-    <div class="wrapper">
-        <div class="header">
-        <img src="images/header.gif" height="400px" width="1260" alt="header" />
-          <div class="logo">
-           <img src="images/logo.png" height="180px" width="180px" alt="logo" />
-          </div>
-        </div>
-    </div>
-</header>
-    <nav>
-    </nav>
-<section class="">
-</section>
-<footer>
-</footer>
-
+<style type="text/css">
+#wrapper
+{
+	margin:0px auto;
+	padding:0px;
+	width:1250px;
+}
+#header-bg-img
+{
+	background-image:url(images/header.png);
+	display:block;
+	float:left;
+}
+.logo
+{
+	margin-left:20px;
+	margin-top:10px;
+	width:170px;
+}
+#top-nav {
+	display: block;
+	position:relative;
+	margin-left:20px;
+	float:left;
+}
+#top-nav ul li 
+{
+	display: inline;
+	padding-right: 20px;
+}
+</style>
+<div id="wrapper" >
+	<div id="header-bg-img">
+      <div class="logo">
+        <a href="#" title="logo-title"><img src="images/logo.png" alt="logo-image" width="170px" height="170px" /></a>
+      </div><!--logo--->
+        <div id="top-nav"> 
+						<ul> 
+                         <li>Home</li> 
+                         <li>About Us</li>
+                         <li>Benefits</li> 
+                         <li>Services</li> 
+                         <li>Faces</li> 
+                         <li>Event Calendar</li> 
+                         <li>FAQ</li> 
+                         <li>Contact</li> 
+                         <li>Book a Massage</li> 
+                        </ul>
+		</div><!-- top-nav -->
+    </div><!-- END header image--->
+</div><!-- Wrapper -->
 </body>
 </html>
