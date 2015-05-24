@@ -1,0 +1,18 @@
+.wrapper{
+	width:1280px;
+	margin:20px auto;
+	padding:20px auto;
+	}
+.header
+{
+	margin-left:20px;
+	float:left;
+}
+.logo
+{
+	 width:250px;
+	 height:250px;
+	 margin-left:20px;
+	 margin-top:20px;
+	 float:left;
+}
